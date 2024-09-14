@@ -16,7 +16,8 @@ header {
     margin-right: 20px;
 }
 
-.dedication-img, .venue-img {
+.dedication-img,
+.venue-img {
     width: 250px;
     height: auto;
     border-radius: 10px;
@@ -33,3 +34,111 @@ header {
     object-fit: cover;
 }
 
+
+/* header */
+
+.header-bg {
+    background-image: url('img/fondo03.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Esto hace que el header ocupe toda la pantalla */
+    position: relative;
+}
+
+.text-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    /* Fondo semitransparente para el texto */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.header-bg h1,
+.header-bg p {
+    color: white;
+    /* Asegura que el texto sea visible sobre la imagen */
+}
+
+
+/* <!-- Sección de Dedicación --> */
+
+.section-bg {
+    background-image: url('img/fondo05.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Hace que la sección ocupe toda la altura de la ventana */
+    width: 100%;
+    /* Asegura que la sección ocupe todo el ancho */
+    position: relative;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semitransparente para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    /* Ajusta el tamaño máximo del contenido */
+}
+
+.dedication-img {
+    max-width: 150px;
+    /* Ajusta el tamaño de la imagen */
+    border-radius: 50%;
+    /* Le da forma circular a la imagen */
+}
+
+.section-bg h2,
+.section-bg p {
+    color: black;
+    /* Asegura que el texto sea legible */
+}
+
+
+/* <!-- Sección de Dirección del Evento --> */
+
+.section-evento {
+    background-image: url('img/fondo04.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Hace que la sección ocupe toda la altura de la ventana */
+    width: 100%;
+    /* Asegura que la sección ocupe todo el ancho */
+    position: relative;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semitransparente para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    /* Ajusta el tamaño máximo del contenido */
+}
+
+.dedication-img {
+    max-width: 150px;
+    /* Ajusta el tamaño de la imagen */
+    border-radius: 50%;
+    /* Le da forma circular a la imagen */
+}
+
+.section-evento h2,
+.section-evento p {
+    color: black;
+    /* Asegura que el texto sea legible */
+}
